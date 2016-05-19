@@ -5,13 +5,7 @@
 	"keywords": ["rightmove", "api", "adf", "property", "renting", "sales", "real estate", "data feed", "feed", "oversea"],
 	"homepage": "https://github.com/frozensheep/rightmoveADF",
 	"license": "MIT",
-	"authors": [
-		{
-			"name": "Jacob Wyke",
-			"email": "jacob@frozensheep.com",
-			"homepage": "https://frozensheep.com",
-		},
-		
+	"authors": [		
 		{
 
 			"name": "George Panayi",
