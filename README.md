@@ -2,8 +2,8 @@
 
 PHP library for the Rightmove Real Time Property Datafeed. It's based on frozensheep repository, but this one includes oversea features.
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/frozensheep/rightmove-ADF.svg?style=flat-square)](https://packagist.org/packages/frozensheep/rightmove-adf)
-[![Build Status](https://img.shields.io/travis/frozensheep/rightmoveADF/master.svg?style=flat-square)](https://travis-ci.org/frozensheep/rightmoveADF)
+[![Latest Stable Version](https://img.shields.io/packagist/v/frozensheep/rightmove-ADF.svg?style=flat-square)](https://packagist.org/packages/giwrgos88/rightmove-adf)
+[![Build Status](https://img.shields.io/travis/frozensheep/rightmoveADF/master.svg?style=flat-square)](https://travis-ci.org/giwrgos88/rightmove-adf)
 [![Coverage Status](https://coveralls.io/repos/frozensheep/rightmoveADF/badge.svg?branch=master&service=github)](https://coveralls.io/github/frozensheep/rightmoveADF?branch=master)
 [![MIT License](https://img.shields.io/packagist/l/frozensheep/rightmove-ADF.svg?style=flat-square)](https://github.com/frozensheep/rightmoveADF/blob/master/LICENSE)
 [![PHP 5.4](https://img.shields.io/badge/php-5.4-8892BF.svg?style=flat-square)](https://php.net/)
