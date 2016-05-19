@@ -7,10 +7,16 @@
 	"license": "MIT",
 	"authors": [
 		{
+			"name": "Jacob Wyke",
+			"email": "jacob@frozensheep.com",
+			"homepage": "https://frozensheep.com",
+		},
+		
+		{
 
 			"name": "George Panayi",
 			"email": "g3o.panayi@gmai.com",
-			"homepage": "http://gpanayi.com"
+			"homepage": "https://gpanayi.com"
 		}
 	],
 	"require": {
