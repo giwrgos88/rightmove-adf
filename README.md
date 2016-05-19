@@ -5,7 +5,7 @@ PHP library for the Rightmove Real Time Property Datafeed. It's based on frozens
 [![Latest Stable Version](https://img.shields.io/packagist/v/giwrgos88/rightmove-adf.svg?style=flat-square)](https://packagist.org/packages/giwrgos88/rightmove-adf)
 [![Build Status](https://img.shields.io/travis/giwrgos88/rightmove-adf/master.svg?style=flat-square)](https://travis-ci.org/giwrgos88/rightmove-adf)
 [![Coverage Status](https://coveralls.io/repos/giwrgos88/rightmove-adf/badge.svg?branch=master&service=github)](https://coveralls.io/github/giwrgos88/rightmove-adfbranch=master)
-[![MIT License](https://img.shields.io/packagist/l/frozensheep/rightmove-ADF.svg?style=flat-square)](https://github.com/giwrgos88/rightmove-adf/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/packagist/l/giwrgos88/rightmove-adf.svg?style=flat-square)](https://github.com/giwrgos88/rightmove-adf/blob/master/LICENSE)
 [![PHP 5.4](https://img.shields.io/badge/php-5.4-8892BF.svg?style=flat-square)](https://php.net/)
 [![PHP 5.5](https://img.shields.io/badge/php-5.5-8892BF.svg?style=flat-square)](https://php.net/)
 [![PHP 5.6](https://img.shields.io/badge/php-5.6-8892BF.svg?style=flat-square)](https://php.net/)
