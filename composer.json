@@ -1,15 +1,19 @@
 {
 	"name": "giwrgos88/rightmove-adf",
 	"type": "library",
-	"description": "PHP library for the Rightmove Real Time Property Datafeed (ADF).",
-	"keywords": ["rightmove", "api", "adf", "property", "renting", "sales", "real estate", "data feed", "feed"],
+	"description": "PHP library for the Rightmove Real Time Property Datafeed (ADF) (Inc. Overasea options).",
+	"keywords": ["rightmove", "api", "adf", "property", "renting", "sales", "real estate", "data feed", "feed", "oversea"],
 	"homepage": "https://github.com/frozensheep/rightmoveADF",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Jacob Wyke",
 			"email": "jacob@frozensheep.com",
-			"homepage": "https://frozensheep.com"
+			"homepage": "https://frozensheep.com",
+
+			"name": "George Panayi",
+			"email": "g3o.panayi@gmai.com",
+			"homepage": "https://gpanayi.com"
 		}
 	],
 	"require": {

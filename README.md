@@ -1,6 +1,6 @@
-# RightmoveADF
+# RightmoveADF (Inc. Oversea options)
 
-PHP library for the Rightmove Real Time Property Datafeed. It's based on frozensheep project, but this one includes oversea features.
+PHP library for the Rightmove Real Time Property Datafeed. It's based on frozensheep repository, but this one includes oversea features.
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/frozensheep/rightmove-ADF.svg?style=flat-square)](https://packagist.org/packages/frozensheep/rightmove-adf)
 [![Build Status](https://img.shields.io/travis/frozensheep/rightmoveADF/master.svg?style=flat-square)](https://travis-ci.org/frozensheep/rightmoveADF)
