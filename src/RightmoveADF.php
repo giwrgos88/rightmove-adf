@@ -13,7 +13,9 @@ namespace Frozensheep\RightmoveADF;
 use Frozensheep\Synthesize\Synthesizer;
 use Frozensheep\RightmoveADF\Exception\UnknownRequestTypeException;
 use Frozensheep\RightmoveADF\Curl;
+use Frozensheep\RightmoveADF\Guzzle;
 use Frozensheep\RightmoveADF\Request\SendProperty;
+use Frozensheep\RightmoveADF\Request\SendOverSeaProperty;
 use Frozensheep\RightmoveADF\Request\RemoveProperty;
 use Frozensheep\RightmoveADF\Request\GetBranchPropertyList;
 use Frozensheep\RightmoveADF\Request\AddPremiumListing;
@@ -26,6 +28,7 @@ use Frozensheep\RightmoveADF\Request\GetBranchEmails;
 use Frozensheep\RightmoveADF\Request\GetBrandPhoneLeads;
 use Frozensheep\RightmoveADF\Request\GetBranchPhoneLeads;
 use Frozensheep\RightmoveADF\Request\GetPropertyEmails;
+use Frozensheep\RightmoveADF\Request\GetOverSeaBranchPropertyList;
 
 /**
 *	RightmoveADF Class
@@ -56,7 +59,8 @@ class RightmoveADF {
 	const GetBrandPhoneLeads = 11;
 	const GetBranchPhoneLeads = 12;
 	const GetPropertyEmails = 13;
-
+	const SendOverSeaProperty = 14;
+	const GetOverSeaBranchPropertyList = 15;
 	/**
 	*	@var array $arrSynthesize The synthesize array.
 	*/
@@ -129,6 +133,12 @@ class RightmoveADF {
 			case RightmoveADF::GetPropertyEmails:
 				return new GetPropertyEmails();
 				break;
+			case RightmoveADF::SendOverSeaProperty:
+				return new SendOverSeaProperty();
+				break;
+			case RightmoveADF::GetOverSeaBranchPropertyList:
+				return new GetOverSeaBranchPropertyList();
+				break;
 			default:
 				throw new UnknownRequestTypeException();
 				break;
@@ -146,5 +156,19 @@ class RightmoveADF {
 		$strURL = ($strURLOverride) ? $strURLOverride : $objRequest->getURL($this->environment);
 
 		return Curl::send(json_encode($objRequest), $strURL, $this->cert_file, $this->cert_pass, $boolDebug);
+	}
+
+	/**
+	*	Send Method
+	*
+	*	Returns the request object for the given request type.
+	*	@param int $numRequestType The request type.
+	*	@return object
+	*/
+	public function sendViaGuzzle($objRequest, $strURLOverride = '', $boolDebug = false){
+
+		$strURL = ($strURLOverride) ? $strURLOverride : $objRequest->getURL($this->environment);
+     
+        return Guzzle::send(json_encode($objRequest), $strURL, $this->cert_file, $this->cert_pass, $boolDebug);
 	}
 }

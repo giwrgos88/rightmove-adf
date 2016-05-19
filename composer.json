@@ -1,5 +1,5 @@
 {
-	"name": "frozensheep/rightmove-adf",
+	"name": "giwrgos88/rightmoveADF",
 	"type": "library",
 	"description": "PHP library for the Rightmove Real Time Property Datafeed (ADF).",
 	"keywords": ["rightmove", "api", "adf", "property", "renting", "sales", "real estate", "data feed", "feed"],
