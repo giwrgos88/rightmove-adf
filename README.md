@@ -17,14 +17,14 @@ PHP library for the Rightmove Real Time Property Datafeed. It's based on frozens
 To install with Composer:
 
 ```sh
-composer require frozensheep/rightmove-adf
+composer require giwrgos88/rightmove-adf
 ```
 
 Or add to a composer.json file:
 
 ```json
 "require": {
-	"giwrgos88/rightmoveADF" : "1.*"
+	"giwrgos88/rightmove-adf" : "1.*"
 }
 ```
 
