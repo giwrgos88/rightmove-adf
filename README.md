@@ -1,6 +1,6 @@
 # RightmoveADF
 
-PHP library for the Rightmove Real Time Property Datafeed.
+PHP library for the Rightmove Real Time Property Datafeed. It's based on frozensheep project, but this one includes oversea features.
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/frozensheep/rightmove-ADF.svg?style=flat-square)](https://packagist.org/packages/frozensheep/rightmove-adf)
 [![Build Status](https://img.shields.io/travis/frozensheep/rightmoveADF/master.svg?style=flat-square)](https://travis-ci.org/frozensheep/rightmoveADF)
@@ -24,7 +24,7 @@ Or add to a composer.json file:
 
 ```json
 "require": {
-	"frozensheep/rightmove-adf" : "1.*"
+	"giwrgos88/rightmoveADF" : "1.*"
 }
 ```
 
@@ -86,4 +86,4 @@ All values that you set will be checked against what the API expects and return 
 ## Known Issues
 None.
 
-Please submit any to the [Github repo](https://github.com/frozensheep/rightmoveADF/issues).
+Please submit any to the [Github repo](https://github.com/giwrgos88/rightmoveADF/issues).
